@@ -235,5 +235,6 @@ current = randomBrick()
 wait = 500
 basic.forever(function () {
     moveBrickDown()
+    basic.clearScreen()
     basic.showString("Game Over!")
 })
